@@ -1,0 +1,86 @@
+header{
+    color: purple;
+    font-weight: bolder;
+    padding-top: 5px;
+    margin: right 650px;
+    margin-left: 50px;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+
+input{
+width:50;
+display: block;
+    /* text-align: center; 
+    line-height:;
+    font-size: .85em;*/
+
+
+
+}
+label{
+    display: block;
+    color: purple;
+    font-weight: bold;
+    display: block;
+    /* text-align: center; 
+    line-height: 150%;
+    font-size: .85em;*/
+}
+    
+
+button{
+    color: purple;
+    width: 70px;
+    border-radius:5px;
+    font-size: small;
+    background-color:grey;
+    padding: 0;
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+    body{
+    background-color:greenyellow;
+    }
+    form{
+        background-color: red;
+        width: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    body{
+    background-color:red;
+    }
+    form{
+        background-color:blue;
+        width: 30%;
+    }
+}
+
+    @media only screen and (max-width: 450px){
+        body{
+        background-color: blueviolet;
+        }
+}
+
+@media only screen and (max-width: 300px){
+    body{
+    background-color:black;
+    }
+}
+
+@media only screen and (max-width: 250px){
+    body{
+    background-color:darkorange;
+    }
+    .aa{
+        font-size: 100%;
+    }
+}
+
